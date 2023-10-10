@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Two In Array(while Loop)</title>
+    <script>
+        // Merge Two In Array With (While Loop)
+        let Arr1 = [5, 10, 15, 30, 35, 45, 50, 75, 80];
+        let Arr2 =  [3, 4, 20, 25, 55, 60, 65, 70];
+        let Arr3 = [];
+
+        let Pk = 0;
+        let Sb = 0;
+        let Mp = 0;
+
+        while (Pk < Arr1.length && Sb < Arr2.length){
+            if(Arr1[Pk] <Arr2[Sb]) {
+                Arr3[Mp] = Arr1[Pk];
+                Pk++;
+                //console.log(Arr3[Mp]); // Running this Separate 
+
+            } else {
+                Arr3[Mp] = Arr2[Sb];
+                Sb++;
+                //console.log(Arr3[Mp]); // Running this Separate 
+        }
+      Mp++;
+    }
+    while(Pk<Arr1.length){
+    Arr3[Mp] = Arr1[Pk];
+    Pk++;
+    Mp++;
+    }
+    console.log(Arr3);
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

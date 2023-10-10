@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Two In Array</title>
+    <script>
+    // Merge Two In Array By (FOR LOOP)
+    let Arr1 = [5, 10, 15, 20, 25, 30, 35, 40];
+    let Arr2 = [45, 50, 55, 60, 65, 70, 75, 80];
+    let Arr3 = [];
+    
+    for(let i=0; i<Arr1.length; i++){
+        Arr3[i] = Arr1[i];
+    }
+    for(let i=0; i<Arr2.length; i++){
+        Arr3[Arr1.length+i] = Arr2[i];
+    }
+    console.log(Arr3);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
