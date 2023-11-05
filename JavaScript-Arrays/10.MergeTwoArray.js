@@ -20,3 +20,16 @@ let arr2 = [3, 4, 5, 7];
 let arr = [...arr1, ...arr2]; 
 let mergedArr = [...new Set(arr)] 
 console.log(mergedArr);
+
+
+/* <---Method 2: Using concat() Method and Set() Object
+The concat() method is used to merge two arrays and 
+then use the Set() object to remove the duplicate items from the merged array.
+
+Example: ---> */
+
+let arr3 = [1, 2, 3, 4, 5, 6];  
+let arr4 = [3, 4, 5, 7]; 
+let array = arr3.concat(arr4); 
+let mergedArr = [...new Set(array)] 
+console.log(mergedArr);
