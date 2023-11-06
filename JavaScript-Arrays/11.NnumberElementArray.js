@@ -70,3 +70,23 @@ for (let i = 0; i < n3 && i < arr3.length; i++) {
 } 
   
 console.log(result3); // Output: ['apple', 'banana', 'orange']
+
+/* <-- Method 3: Using the splice() method
+The splice() method can be used to add or 
+remove elements from an array. We can use it to 
+remove all elements after the first N elements.
+
+Syntax:
+
+array.splice(start, deleteCount);
+Here, start is the starting index from where to begin deletion, and deleteCount is the number of elements to be deleted. We can set deleteCount to the length of the array to remove all elements after the first N elements.
+
+Example 1: --> */
+
+
+
+const arr4 = [1, 2, 3, 4, 5, 6]; 
+const n4 = 3; 
+arr4.splice(n); 
+console.log(arr4); // Output: [1, 2, 3]
+
