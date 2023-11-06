@@ -87,6 +87,13 @@ Example 1: --> */
 
 const arr4 = [1, 2, 3, 4, 5, 6]; 
 const n4 = 3; 
-arr4.splice(n); 
+arr4.splice(n4); 
 console.log(arr4); // Output: [1, 2, 3]
 
+/* <-- Example 2: --> */
+
+
+const arr5 = ['apple', 'banana', 'orange', 'grape', 'kiwi']; 
+const n5 = 3; 
+arr5.splice(n5); 
+console.log(arr5); // Output: ['apple', 'banana', 'orange']
