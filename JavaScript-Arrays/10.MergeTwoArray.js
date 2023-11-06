@@ -18,8 +18,8 @@ then use the Set() object to remove the duplicate items from the merged array.--
 let arr1 = [1, 2, 3, 4, 5, 6];  
 let arr2 = [3, 4, 5, 7]; 
 let arr = [...arr1, ...arr2]; 
-let mergedArr = [...new Set(arr)] 
-console.log(mergedArr);
+let mergedArr1 = [...new Set(arr)] 
+console.log(mergedArr1);
 
 
 /* <---Method 2: Using concat() Method and Set() Object
@@ -31,8 +31,8 @@ Example: ---> */
 let arr3 = [1, 2, 3, 4, 5, 6];  
 let arr4 = [3, 4, 5, 7]; 
 let array = arr3.concat(arr4); 
-let mergedArr = [...new Set(array)] 
-console.log(mergedArr);
+let mergedArr2 = [...new Set(array)] 
+console.log(mergedArr2);
 
 
 /* <---Method 3: Using concat() Method and Filter()
@@ -44,3 +44,4 @@ let arr5 = [1, 5, 3];
 let arr6 = [4, 5, 6]; 
 let newArr = arr5.concat(arr6.filter((item) => arr5.indexOf(item) < 0)); 
 console.log(newArr);
+

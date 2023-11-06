@@ -38,3 +38,35 @@ const arr1 = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
 const n1 = 2; 
 const result1 = arr1.slice(0, n1); 
 console.log(result1); // Output: ['apple', 'banana'] 
+
+/* <-- Method 2: Using a for loop
+We can also use a for loop to iterate through the array and extract the first N elements.
+
+Syntax:
+
+for (let i = 0; i < n; i++) {
+    // Access and store elements here
+} 
+ Example 1: ---> */
+
+ const arr2 = [1, 2, 3, 4, 5, 6]; 
+const n2 = 3; // Number of elements to extract 
+const result2 = []; 
+for (let i = 0; i < n2; i++) { 
+    result2.push(arr2[i]); 
+} 
+console.log(result2); // Output: [1, 2, 3]
+
+/* <-- Example 2: --> */
+
+
+const arr3 = ['apple', 'banana', 'orange', 'grape', 'kiwi']; 
+const n3 = 3; 
+  
+const result3 = []; 
+  
+for (let i = 0; i < n3 && i < arr3.length; i++) { 
+      result3.push(arr3[i]); 
+} 
+  
+console.log(result3); // Output: ['apple', 'banana', 'orange']
