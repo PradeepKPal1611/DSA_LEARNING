@@ -97,3 +97,16 @@ const arr5 = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
 const n5 = 3; 
 arr5.splice(n5); 
 console.log(arr5); // Output: ['apple', 'banana', 'orange']
+
+
+/* <-- Method 4: Using the filter() method
+We can also use the filter() method but this method is not much efficient because it iterates over the entire array.
+
+Example: --> */
+
+
+const arr6 = [1,2,3,4,5,6]; 
+const n6 = 4; 
+  
+const newArray = arr6.filter((element, index) => index < n6); 
+console.log(newArray);
