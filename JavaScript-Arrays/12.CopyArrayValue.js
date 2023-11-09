@@ -42,3 +42,17 @@ console.log(clonedArr2);
 // Output
 //[ 1, 2, 3, 5, 6, 4 ]
 
+/*  <-- Method 3: Using Array.slice() Method
+We use the slice() method to create a copy of an 
+array by its value in JavaScript. This method creates 
+a new array with a subset of the elements from the original array.
+
+Example: -->  */
+
+const originalArr3 = [1, 2, 3, 4, 5, 6]; 
+const clonedArr3 = originalArr3.slice(); 
+  
+console.log(clonedArr3);
+
+// Output
+//[ 1, 2, 3, 4, 5, 6 ]
