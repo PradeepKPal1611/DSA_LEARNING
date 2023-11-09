@@ -100,7 +100,8 @@ console.log(arr5); // Output: ['apple', 'banana', 'orange']
 
 
 /* <-- Method 4: Using the filter() method
-We can also use the filter() method but this method is not much efficient because it iterates over the entire array.
+We can also use the filter() method but this 
+method is not much efficient because it iterates over the entire array.
 
 Example: --> */
 
