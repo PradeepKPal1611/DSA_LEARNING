@@ -56,3 +56,18 @@ console.log(clonedArr3);
 
 // Output
 //[ 1, 2, 3, 4, 5, 6 ]
+
+/*  <--  Method 4: Using structuredClone() Method
+We can also use the modern structuredClone() method for 
+deep cloning of an array. This can be done using the structured 
+clone algorithm.
+
+Example:  -->  */
+
+const arr = ["Geeksforgeeks","geek","GFG","geeks"]; 
+const newArray = structuredClone(arr); 
+console.log(newArray);
+
+/* Output:
+
+['Geeksforgeeks', 'geek', 'GFG', 'geeks'] */
