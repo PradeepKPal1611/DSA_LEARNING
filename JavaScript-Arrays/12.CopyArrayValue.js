@@ -18,12 +18,27 @@ easy way to copy an array by value in JavaScript.
 
 Example: --> */
 
-const originalArr = [1, 2, 3, 4, 5, 6]; 
-const clonedArr = [...originalArr]; 
+const originalArr1 = [1, 2, 3, 4, 5, 6]; 
+const clonedArr1 = [...originalArr1]; 
   
-console.log(clonedArr);
+console.log(clonedArr1);
 
 // Output
 // [ 1, 2, 3, 4, 5, 6 ] 
 
+/* <-- Method 2: Using Array.from() Method
+Using the Array.from() method is another way to copy 
+an array by its value in JavaScript. This method creates
+a new array from an existing array, using an optional mapping 
+function to transform the values in the new array.
+
+Example: --> */
+
+const originalArr2 = [1, 2, 3, 5, 6, 4]; 
+const clonedArr2 = Array.from(originalArr2); 
+  
+console.log(clonedArr2);
+
+// Output
+//[ 1, 2, 3, 5, 6, 4 ]
 
