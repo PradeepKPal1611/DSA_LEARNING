@@ -48,3 +48,30 @@ console.log(arr);
      3,  7
 ] */
 
+
+/* <-- Method 3: Using Spread Operator
+You can also use Spread Operator to concatenate N arrays.
+For this, first, we will create N arrays and then apply 
+Spread Operator to concatenate N arrays. 
+
+Note: This method is faster and less memory intensive than 
+the concat() method.
+
+Example: --> */
+
+const arr7 = [11, 12, 13],
+      arr8 = [14, 15, 16],
+      arr9 = [17, 18, 19],
+      arr10 = [1, 3, 7];
+ 
+const arr0 = [...arr1, ...arr2, ...arr3, ...arr4];
+ 
+console.log(arr0);
+
+/* Output
+[
+  11, 12, 13, 14, 15,
+  16, 17, 18, 19,  1,
+   3,  7
+] */
+
