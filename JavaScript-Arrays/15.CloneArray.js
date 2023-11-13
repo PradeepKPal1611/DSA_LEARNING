@@ -55,11 +55,25 @@ then be used to create a new array.
 Example: --> */
 
 const originalArray1 = [1, 2, 3];
-const clonedArray2 = [...originalArray1];
+const clonedArray1 = [...originalArray1];
 console.log(clonedArray1);
 
 /* Output
 [ 1, 2, 3 ] */
 
+/* <-- 3. Using the Array.from() Method:
+Using the Array.from() method is another way to clone an 
+array in JavaScript. This method creates a new array from 
+an existing array, using an optional mapping function to 
+transform the values in the new array.
+
+Example: --> */
+
+const originalArray2 = [1, 2, 3];
+const clonedArray2 = Array.from(originalArray2);
+console.log(clonedArray2);
+
+/* Output
+[ 1, 2, 3 ] */
 
 
