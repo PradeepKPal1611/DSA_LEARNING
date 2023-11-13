@@ -45,3 +45,21 @@ console.log(clonedArray);
 
 /* Output
 [ 1, 2, 3 ] */
+
+/* <-- 2. Using the spread Operator:
+Using the spread operator … is a concise and easy way to 
+clone an array in JavaScript. The spread operator allows 
+you to expand an array into individual elements, which can 
+then be used to create a new array.
+
+Example: --> */
+
+const originalArray1 = [1, 2, 3];
+const clonedArray2 = [...originalArray1];
+console.log(clonedArray1);
+
+/* Output
+[ 1, 2, 3 ] */
+
+
+
