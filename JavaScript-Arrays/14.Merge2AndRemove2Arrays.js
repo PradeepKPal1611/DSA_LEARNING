@@ -32,3 +32,20 @@ console.log(mergedArr);
   1, 2, 3, 4,
   5, 6, 7
 ] */
+
+/*  <-- Method 2: Using concat() Method and Set() Object
+The concat() method is used to merge two arrays and then use the Set() object to remove the duplicate items from the merged array.
+
+Example: -->  */
+
+let arr3 = [1, 2, 3, 4, 5, 6];  
+let arr4 = [3, 4, 5, 7]; 
+let arr0 = arr3.concat(arr4); 
+let mergedArr0 = [...new Set(arr0)] 
+console.log(mergedArr0);
+
+/* Output
+[
+  1, 2, 3, 4,
+  5, 6, 7
+] */
