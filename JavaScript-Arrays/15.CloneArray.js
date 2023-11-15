@@ -106,4 +106,18 @@ console.log(clonedArray4);
 /* Output
 [ 1, 2, 3 ] */
 
+/*  <-- 6. Using the Array.map() Method:
+Using the Array.map() method is another way to clone an 
+array in JavaScript. This method creates a new array by 
+mapping each element from the original array to a new value.
+
+Example:  --> */
+
+const originalArray5 = [1, 2, 3];
+const clonedArray5 = originalArray5.map(x => x);
+console.log(clonedArray5);
+
+/* Output
+[ 1, 2, 3 ] */
+
 
