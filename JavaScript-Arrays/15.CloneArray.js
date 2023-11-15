@@ -163,3 +163,23 @@ console.log(clonedArray8);
 
 /* Output
 [1, 2, 3, 4, 5] */
+
+
+/*  <-- 10. Using the Object.assign() Method:
+Using the Object.assign() method is another way to clone 
+an array in JavaScript. This method creates a new array by 
+copying the properties of the original array to a new 
+object.
+
+Example: --> */
+
+const originalArray9 = [1, 2, 3, 4, 5];
+const clonedArray9 = Object.assign([], originalArray9);
+console.log(clonedArray9);
+
+/* Output
+[1, 2, 3, 4, 5] */
+
+/* <-- Note: Thus, When cloning an array, it is important 
+to consider the complexity of the data and the performance 
+requirements of the application. --> */
