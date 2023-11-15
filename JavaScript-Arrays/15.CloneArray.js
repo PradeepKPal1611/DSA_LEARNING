@@ -135,3 +135,15 @@ console.log(clonedArray6);
 /* Output
 [ 1, 2, 3 ] */
 
+/*  <-- 8. Using the Array.of() Method:
+This method creates a new array with the same elements as 
+the original array.
+
+Example :  --> */
+
+const originalArray7 = [1, 2, 3];
+const clonedArray7 = Array.of(...originalArray7);
+console.log(clonedArray7);
+
+/* Output
+[ 1, 2, 3 ] */
