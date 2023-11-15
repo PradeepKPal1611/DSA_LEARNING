@@ -120,4 +120,18 @@ console.log(clonedArray5);
 /* Output
 [ 1, 2, 3 ] */
 
+/*  <-- 7. Using the Array.from() method with a map function:
+Using the Array.from() method with a map function is 
+another way to clone an array in JavaScript. This method 
+creates a new array by mapping each element from the original 
+array to a new value using a provided function.
+
+Example:  --> */
+
+const originalArray6 = [1, 2, 3];
+const clonedArray6 = Array.from(originalArray6, x => x);
+console.log(clonedArray6); 
+
+/* Output
+[ 1, 2, 3 ] */
 
