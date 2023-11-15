@@ -77,7 +77,9 @@ console.log(clonedArray2);
 [ 1, 2, 3 ] */
 
 /* <-- 4. Using the Array.concat() Method:
-Using the Array.concat() method is another way to clone an array in JavaScript. This method creates a new array by concatenating two or more arrays together.
+Using the Array.concat() method is another way to clone an 
+array in JavaScript. This method creates a new array by 
+concatenating two or more arrays together.
 
 Example: --> */
 
@@ -87,4 +89,21 @@ console.log(clonedArray3);
 
 /* Output
 [ 1, 2, 3 ] */
+
+/* <-- 5. Using a for loop:
+This method involves iterating through each element in the 
+original array and copying each element into a new array.
+
+Example:  --> */
+
+const originalArray4 = [1, 2, 3];
+const clonedArray4 = [];
+for (let i = 0; i < originalArray4.length; i++) {
+    clonedArray4.push(originalArray4[i]);
+}
+console.log(clonedArray4);
+
+/* Output
+[ 1, 2, 3 ] */
+
 
