@@ -147,3 +147,19 @@ console.log(clonedArray7);
 
 /* Output
 [ 1, 2, 3 ] */
+
+
+/*  <-- 9. Using the JSON.parse() and JSON.stringify() Methods:
+Using the JSON.parse() and JSON.stringify() methods is 
+another way to clone an array in JavaScript. This method 
+involves converting the original array to a JSON string 
+and then parsing the JSON string to create a new array.
+
+Example : --> */
+
+const originalArray8 = [1, 2, 3, 4, 5];
+const clonedArray8 = JSON.parse(JSON.stringify(originalArray8));
+console.log(clonedArray8);
+
+/* Output
+[1, 2, 3, 4, 5] */
