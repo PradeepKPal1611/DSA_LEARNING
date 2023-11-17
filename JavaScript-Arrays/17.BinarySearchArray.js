@@ -28,3 +28,7 @@ console.log("Is 85 present? " + (BinarySearch(num, 0, num.length, 85) != -1));
  
 // To check if 1 is present or not
 console.log("Is 1 present? " + (BinarySearch(num, 0, num.length, 1) != -1));
+
+/* Output
+Is 85 present? false
+Is 1 present? true */
