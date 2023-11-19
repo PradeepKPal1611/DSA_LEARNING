@@ -84,3 +84,39 @@ console.log(convertToObj(a1, b1));
 
 /* Output
 { '1': 'ram', '2': 'shyam', '3': 'sita', '4': 'gita' } */
+
+/* <== Method 3: Using reduce() method
+The Javascript arr.reduce() method in JavaScript is used to reduce the 
+array to a single value and executes a provided function 
+for each value of the array (from left to right) and the 
+return value of the function is stored in an accumulator. 
+
+Example: In this example, we will be using Javascript`s 
+reduce() method. ==> */
+
+let a2 = [1, 2, 3, 4];
+let b2 = ["ram", "shyam", "sita", "gita"];
+ 
+// Checking if the array lengths are same
+// and none of the array is empty
+function convertToObj(a2, b2) {
+    if (a2.length != b2.length || 
+        a2.length == 0 || 
+        b2.length == 0) {
+        return null;
+    }
+ 
+    // Using reduce() method
+    let object = a2.reduce((acc, element, index) => {
+        return {
+            ...acc,
+            [element]: b2[index],
+        };
+    }, {});
+ 
+    return object;
+}
+console.log(convertToObj(a2, b2));
+
+/* Output
+{ '1': 'ram', '2': 'shyam', '3': 'sita', '4': 'gita' } */
