@@ -120,3 +120,27 @@ console.log(convertToObj(a2, b2));
 
 /* Output
 { '1': 'ram', '2': 'shyam', '3': 'sita', '4': 'gita' } */
+
+/* <== Method 4: Using Loop
+This is the basic loop method for creating the object from 
+the two arrays. We can iterate over one of the arrays and 
+use the loop index to access corresponding elements from 
+both arrays. ==> */
+
+function createObject(keys, values) {
+    let result = {};
+    let length = Math.min(keys.length, values.length);
+    for (let i = 0; i < length; i++) {
+        result[keys[i]] = values[i];
+    }
+    return result;
+}
+ 
+// Example usage:
+let a3 = [1, 2, 3, 4];
+let b3 = ["ram", "shyam", "sita", "gita"];
+let result = createObject(a3, b3);
+console.log(result);
+
+/* Output
+{ '1': 'ram', '2': 'shyam', '3': 'sita', '4': 'gita' } */
