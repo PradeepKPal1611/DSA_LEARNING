@@ -144,3 +144,24 @@ console.log(result);
 
 /* Output
 { '1': 'ram', '2': 'shyam', '3': 'sita', '4': 'gita' } */
+
+/* <== Method 5: Using object.fromEntries() Method
+The Object.fromEntries() method in JavaScript is a 
+standard built-in object which is used to transform a l
+ist of key-value pairs into an object. ==> */
+
+function createObject(keys, values) {
+    const obj = Object.fromEntries(
+        keys.map((key, index) => [key, values[index]]),
+    );
+ 
+    return obj;
+}
+ 
+let a4 = [1, 2, 3, 4];
+let b4 = ["ram", "shyam", "sita", "gita"];
+let result1 = createObject(a4, b4);
+console.log(result);
+
+/* Output
+{ '1': 'ram', '2': 'shyam', '3': 'sita', '4': 'gita' } */
