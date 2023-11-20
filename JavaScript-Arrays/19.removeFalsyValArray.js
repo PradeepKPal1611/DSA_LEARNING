@@ -110,5 +110,55 @@ console.log(removeFalsey(arr2));
 
 [23, "gfg", true, 12, "hi", []] */
 
+/* <== Passing Boolean Value: You can also achieve this by 
+passing the Boolean constructor as the argument of the 
+filter method. 
 
+Example: In this example, we will a boolean constructor in 
+the argument of the filter method. ==> */
+
+let arr3 = [23, 0, "gfg", false, true, NaN, 12, "hi", undefined, [], ""];
+ 
+function removeFalsey(arr3) {
+    // Passing Boolean constructor inside filter
+    return arr3.filter(Boolean);
+}
+ 
+console.log(removeFalsey(arr3));
+
+/* Output:
+
+[23, "gfg", true, 12, "hi", []] */
+
+
+/* <== JavaScript Array.reduce() Method: Using the 
+Array.reduce method we iterate the array and initialize 
+the accumulator with an empty array and if the current 
+value is not a falsy value then we return a concatenated 
+value of the accumulator else we return the accumulator 
+only.
+
+Example: In this example, we will use the Javascript 
+Array.reduce() method to remove the falsy values from 
+the array. ==> */
+
+let arr4 = [23, 0, "gfg", false, true, NaN, 12, "hi", undefined, [], ""];
+ 
+function removeFalsey(arr4) {
+    return arr4.reduce((acc, curr) => {
+        // Check if the truthy then return concatenated value acc with curr.
+        // else return only acc.
+        if (curr) {
+            return [...acc, curr];
+        } else {
+            return acc;
+        }
+    }, []); // Initialize with an empty array
+}
+ 
+console.log(removeFalsey(arr4));
+
+/* Output:
+
+[23, "gfg", true, 12, "hi", []] */
 
