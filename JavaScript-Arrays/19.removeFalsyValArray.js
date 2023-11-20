@@ -91,3 +91,24 @@ console.log(removeFalsey(arr1));
 
 [] */
 
+/* <== ES6 way of Array.filter() Method: If you can use 
+this es6 sentence.
+
+Example: In this example, we will use the Javascript 
+Array.filter() method in ES6. ==> */
+
+let arr2 = [23, 0, "gfg", false, true, NaN, 12, "hi", undefined, [], ""];
+ 
+function removeFalsey(arr2) {
+    // Return the first parameter of the callback function
+    return arr2.filter((val) => val);
+}
+ 
+console.log(removeFalsey(arr2));
+
+/* Output:
+
+[23, "gfg", true, 12, "hi", []] */
+
+
+
