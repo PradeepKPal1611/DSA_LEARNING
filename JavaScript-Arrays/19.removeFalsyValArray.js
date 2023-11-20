@@ -65,3 +65,29 @@ console.log(removeFalsey(arr));
 /* Output:
 
 [23, "gfg", true, 12, "hi", []] */
+
+/* <== JavaScript Array.filter() Method: In this approach, 
+we are using the array.filter method. The filter method 
+checks the array and filters out the false values of the 
+array and returns a new array.
+
+Example: In this example, we will be using the Array.filter() 
+method to remove the false values from the array. ==> */
+
+let arr1 = ["", 0, false, undefined, NaN, null];
+ 
+function removeFalsey(arr1) {
+    // Applying the filter method on the array
+    return arr1.filter((k) => {
+        // Checking if the value is truthy
+        if (k) {
+            return k;
+        }
+    });
+}
+console.log(removeFalsey(arr1));
+
+/* Output:
+
+[] */
+
