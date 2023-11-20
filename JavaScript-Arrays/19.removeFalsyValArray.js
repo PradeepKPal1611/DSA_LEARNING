@@ -162,3 +162,33 @@ console.log(removeFalsey(arr4));
 
 [23, "gfg", true, 12, "hi", []] */
 
+/* <== JavaScript for…of loop: Using for…of loop iterate 
+the array and check every item if it is falsy or truthy. 
+If the item is truthy then push the item to a newly 
+created array.
+
+Example: In this example, we will use Javascript 
+for..of loop to remove the falsy values from the array. ==> */
+
+let arr5 = [23, 0, "gfg", false, true, NaN, 12, "hi", undefined, [], ""];
+ 
+function removeFalsey(arr5) {
+ 
+    // Create a new array
+    let output = [];
+    for (x of arr5) {
+        if (x) {
+ 
+            // Check if x is truthy
+            output.push(x);
+        }
+    }
+    return output;
+}
+ 
+console.log(removeFalsey(arr5));
+
+/* Output:
+
+[23, "gfg", true, 12, "hi", []] */
+
