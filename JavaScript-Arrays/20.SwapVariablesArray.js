@@ -39,3 +39,28 @@ console.log("Array after swapping : " + array);
 
 /* Output
 Array after swapping : 2,10,5,12,7 */
+
+/* <== Approach 2: One-Line Swap
+ In the one-line swap, we take the array values we want 
+ to swap in a list according to indices and we directly 
+ assign the array values by changing the indices. Instead 
+ of doing it the hard way, there’s a very simple approach 
+ where we can swap variables directly, reassigning values 
+ at the same time. 
+
+Syntax:
+
+[a[i], a[j]] = [a[j], a[i]]
+Note: i and j are any two indices of the array. this is a 
+direct assignment without using an alternative variable.
+
+Example: In the below code were swapping values at indices 
+0 and 1. ==> */
+
+// Swapping first two elements of the array
+let array1 = [10, 2, 5, 12, 7];
+[array1[0], array1[1]] = [array1[1], array1[0]];
+console.log("Array after swapping : " + array1);
+
+/* Output
+Array after swapping : 2,10,5,12,7 */
