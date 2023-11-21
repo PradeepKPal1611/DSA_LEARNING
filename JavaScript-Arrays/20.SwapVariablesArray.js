@@ -99,3 +99,22 @@ console.log(
 
 /* Output
 After Swapping: x value is : 5 and b value is :3 */
+
+/* <== Approach 4: Using XOR Bitwise operator
+In JavaScript, the bitwise XOR(^) Operator is used to 
+compare two operands and return a new binary number 
+which is 1 if both the bits in operators are different 
+and 0 if both the bits in operads are the same. The 
+operation is represented by the “|” symbol.
+
+Example: ==> */
+
+let a1 = 20;
+let b1 = 60;
+ 
+a1 = a1 ^ b1;
+b1 = a1 ^ b1;
+a1 = a1 ^ b1;
+ 
+console.log(a1); // Output: 60
+console.log(b1); // Output: 20
