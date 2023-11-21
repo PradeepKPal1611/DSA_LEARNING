@@ -64,3 +64,38 @@ console.log("Array after swapping : " + array1);
 
 /* Output
 Array after swapping : 2,10,5,12,7 */
+
+/* <== Approach 3: Using arithmetic operators
+In this approach, we start by taking the sum of two numbers. 
+let’s take our numbers are ‘a’ and ‘b’. the sum of the two 
+numbers is given to ‘a’.  b variable is updated with a 
+value of ‘a-b’ and a is updated with ‘a-b’. 
+
+Syntax: Initial values, a = 3, a = 5:
+a = a + b // 8
+b = a - b // 8-5=3
+a = a - b // 8-3=5
+Finally, the value of a will become 5, and the value of b 
+will become 3.
+
+Example: ==> */
+
+let a = 3, b = 5;
+ 
+// Code to swap 'a' and 'b'
+// a value changes to 8
+a = a + b;
+ 
+// b value changes to 3
+b = a - b;
+ 
+// a value changes to 5
+a = a - b;
+ 
+console.log(
+    "After Swapping: x value is : "
+    + a + " and b value is :" + b
+);
+
+/* Output
+After Swapping: x value is : 5 and b value is :3 */
