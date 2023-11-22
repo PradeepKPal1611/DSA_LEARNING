@@ -44,3 +44,11 @@ console.log(value2);
 
 [ 50, 50, 50, 50, 50, 50 ]
 [ 50, 50, 50, 50, 50, 50 ] */
+
+/* <== Example 2: In the following example, we use the 
+fill() method to fill the array with 45 from the start 
+index is 1 to the end index is 4 (exclusive). ==> */
+
+let value1 = [4, 10, 5, 7, 6, 18];
+value1.fill(45, 1, 4);
+console.log(value1);
