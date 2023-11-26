@@ -93,3 +93,23 @@ console.log(value5);
 /* Output:
 
 [ 4, 10, 5, 7, 6, 18 ] */
+
+/* <== Method 2: Using for loop We use a simple for loop 
+to fill static values in an array in JavaScript. But still 
+arr.fill() method is best for this job. Let’s look at some 
+examples. 
+
+Example 1: In the following example, we use for loop to 
+fill the array with 2. ==> */
+
+let value6 = [5, 3, 9, 10, 50, 100];
+let i;
+ 
+for (i = 0; i < value6.length; i++) {
+    value6[i] = 2;
+}
+console.log(value6);
+
+/* Output:
+
+[ 2, 2, 2, 2, 2, 2 ] */
