@@ -113,3 +113,19 @@ console.log(value6);
 /* Output:
 
 [ 2, 2, 2, 2, 2, 2 ] */
+
+/* <== Example 2:  In the following example, we use for loop to 
+fill the array with 15 from starting index 1 to ending 
+index 4 ( but the ending index must be smaller than 
+arr.length.) ==> */
+
+let value7 = [5, 3, 9, 10, 50, 100];
+let i;
+for (i = 1; i <= 4; i++) {
+    value7[i] = 15;
+}
+console.log(value7);
+
+/* Output:
+
+[ 5, 15, 15, 15, 15, 100 ] */
