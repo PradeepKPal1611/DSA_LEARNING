@@ -179,3 +179,23 @@ console.log(arr);
 /*  Output:
 
 [ 4, 4, 4, 4, 4, 4 ] */
+
+/* <== Method 5: Using spread operator
+We use the spread operator to fill static values in an 
+array in JavaScript. The spread operator is denoted by 
+three dots (…). The spread operator helps to copy all 
+elements from an existing array to another array. Let’s 
+look at an example.
+
+Example:  In the following example, we use the spread 
+operator to fill the array with 100 with the help of 
+the map function. ==> */
+
+let arr1 = [1, 3, 5, 8, 9, 10];
+let arr2 = [...arr1].map((value) => value = 100);
+console.log(arr2);
+
+/* Output:
+
+[ 100, 100, 100, 100, 100, 100 ] */
+
