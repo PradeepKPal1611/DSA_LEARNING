@@ -129,3 +129,26 @@ console.log(value7);
 /* Output:
 
 [ 5, 15, 15, 15, 15, 100 ] */
+
+/* <== Method 3: Using push() method
+We use the push() method to fill static values in an 
+array in JavaScript. We use the push() method inside the 
+for() loop. The push() method always adds a new element to 
+the end of the array so that means the push() method 
+cannot replace the elements of the array.
+
+Example: In the following example, we take an empty array 
+and use the push() method to fill the array with 10. ==> */
+
+let value8 = [];
+ 
+// An empty array is taken
+let i, length = 5;
+for (i = 0; i < length; i++) {
+    value8.push(10);
+}
+console.log(value8);
+
+/* Output: 
+
+[ 10, 10, 10, 10, 10 ] */
