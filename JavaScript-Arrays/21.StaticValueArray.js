@@ -152,3 +152,30 @@ console.log(value8);
 /* Output: 
 
 [ 10, 10, 10, 10, 10 ] */
+
+/* <== Method 4: Using from() method
+We use the array from() method to fill static values in an 
+array in JavaScript. The from() method is used to create a 
+new array that contains a copy from an array or iterable 
+object. We use this method to convert an array or iterable 
+objects to an array.
+
+Syntax:
+
+Array.from(object, mapFunction, thisValue)
+Return value: The from() method returns a new array.
+
+Example:  We see an example of how to use from() method to 
+fill static values in an array in JavaScript. In the 
+following example, we use Array.from() method to fill 
+the array with value 4. We created an object where 
+length = 6. ==> */
+
+let arr = Array.from({
+    length: 6
+}, (value) => value = 4);
+console.log(arr);
+
+/*  Output:
+
+[ 4, 4, 4, 4, 4, 4 ] */
