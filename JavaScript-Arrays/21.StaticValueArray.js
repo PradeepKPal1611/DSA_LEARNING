@@ -69,3 +69,27 @@ console.log(value3);
 /* Output:
 
 [ 4, 10, 5, 15, 15, 15 ] */
+
+/* <== Example 4: In the following example, we use the 
+fill() method to fill the array with 25. Here start 
+index = -4 and end index = -1, so indexes are counted 
+backward. ==> */
+
+let value4 = [4, 10, 5, 7, 6, 18];
+value4.fill(25, -4, -1);
+console.log(value4);
+
+/* Output:
+
+[ 4, 10, 25, 25, 25, 18 ] */
+
+/* <== Example 5: In the following example, If we give an 
+invalid index then the array will never change. ==> */
+
+let value5 = [4, 10, 5, 7, 6, 18];
+value5.fill(25, 8, 10);
+console.log(value5);
+
+/* Output:
+
+[ 4, 10, 5, 7, 6, 18 ] */
