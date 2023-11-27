@@ -57,3 +57,24 @@ console.log("Sum is " + sum1);
 
 /* Output
 Sum is 44 */
+
+/* <== Method 3: Using reduce() Method
+We are going to use the Javascript reduce() method to find 
+the sum of the array.
+
+Example: This example shows the above-explained approach. ==> */
+
+// Creating array
+let arr2 = [4, 8, 7, 13, 12]
+ 
+// Using reduce function to find the sum
+let sum2 = arr2.reduce(function (x, y) {
+    return x + y;
+}, 0);
+ 
+// Prints: 44
+console.log("Sum using Reduce method: " + sum2);
+
+/* Output
+Sum using Reduce method: 44 */
+
