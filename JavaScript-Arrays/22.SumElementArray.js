@@ -34,3 +34,26 @@ console.log("Sum is " + sum) // Prints: 44
 
 /* Output
 Sum is 44 */
+
+/* <== Method 2: Using forEach() Method
+We are going to use the Javascript forEach() method of the 
+array to calculate the sum.
+
+Example: This example shows the above-explained approach. ==> */
+
+// Creating array
+let arr1 = [4, 8, 7, 13, 12]
+ 
+// Creating variable to store the sum
+let sum1 = 0;
+ 
+// Calculation the sum using forEach
+arr1.forEach(x => {
+    sum1 += x;
+});
+ 
+// Prints: 44
+console.log("Sum is " + sum1);
+
+/* Output
+Sum is 44 */
