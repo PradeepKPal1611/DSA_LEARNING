@@ -113,3 +113,29 @@ console.log(removeDuplicates(arr3));
 
 ["apple", "mango", "orange"] */
 
+/* <-- Method 5: Using Javascript indexOf() Method
+The indexOf() method is used to find the first index of occurrence of 
+an array element. we can iterate over the elements in the 
+array, and we will push into the new array if it doesn’t 
+exist in the resultant array. 
+
+Example: In this example, we will see the use of the indexOf() method. --> */
+
+let arr4 = ["apple", "mango",
+          "apple", "orange", "mango", "mango"];
+ 
+function removeDuplicates(arr4) {
+    let unique = [];
+    for (i = 0; i < arr4 .length; i++) {
+        if (unique.indexOf(arr4[i]) === -1) {
+            unique.push(arr4[i]);
+        }
+    }
+    return unique;
+}
+console.log(removeDuplicates(arr4));
+
+/* Output:
+
+["apple", "mango", "orange"] */
+
