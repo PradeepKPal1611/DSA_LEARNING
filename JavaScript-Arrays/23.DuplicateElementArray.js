@@ -61,3 +61,28 @@ console.log(removeDuplicates(arr1));
 /* Output:
 
 ["apple", "mango", "orange"] */
+
+/* <-- Method 3: Using Javascript forEach() Method
+By using the forEach() method, we can iterate over the elements in the 
+array, and we will push into the new array if it doesn’t 
+exist in the array.
+
+Example: In this example, we will see the use of the 
+forEach() method. --> */
+
+let arr2 = ["apple", "mango", "apple", "orange", "mango", "mango"];
+ 
+function removeDuplicates(arr2) {
+    let unique = [];
+    arr1.forEach(element => {
+        if (!unique.includes(element)) {
+            unique.push(element);
+        }
+    });
+    return unique;
+}
+console.log(removeDuplicates(arr2));
+
+/* Output:
+
+["apple", "mango", "orange"] */
