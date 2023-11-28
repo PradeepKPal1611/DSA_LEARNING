@@ -86,3 +86,30 @@ console.log(removeDuplicates(arr2));
 /* Output:
 
 ["apple", "mango", "orange"] */
+
+
+/* <-- Method 4: Using Javascript reduce() Method
+The reduce() method is used to reduce the elements of the array and 
+combine them into a final array based on some reducer 
+function that you pass.
+
+Example: In this example, we will see the use of the 
+reduce() method. --> */
+
+let arr3 = ["apple", "mango",
+          "apple", "orange", "mango", "mango"];
+ 
+function removeDuplicates(arr3) {
+    let unique = arr3.reduce(function (acc, curr) {
+        if (!acc.includes(curr))
+            acc.push(curr);
+        return acc;
+    }, []);
+    return unique;
+}
+console.log(removeDuplicates(arr3));
+
+/* Output:
+
+["apple", "mango", "orange"] */
+
