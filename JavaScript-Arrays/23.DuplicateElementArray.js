@@ -42,3 +42,22 @@ console.log(removeDuplicates(arr));
 
 ["apple", "mango", "orange"] */
 
+/* <-- Method 2: Using Javascript set()
+This method sets a new object type with ES6 (ES2015) that allows 
+you to create collections of unique values.
+
+Example: In this example, we will see the use of the 
+set() method. --> */
+
+let arr1 = ["apple", "mango", "apple",
+          "orange", "mango", "mango"];
+ 
+function removeDuplicates(arr1) {
+    return [...new Set(arr1)];
+}
+ 
+console.log(removeDuplicates(arr1));
+
+/* Output:
+
+["apple", "mango", "orange"] */
