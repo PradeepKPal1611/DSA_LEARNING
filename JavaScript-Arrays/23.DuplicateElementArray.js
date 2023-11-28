@@ -139,3 +139,31 @@ console.log(removeDuplicates(arr4));
 
 ["apple", "mango", "orange"] */
 
+/* <== Method /5/: Using third-party library
+We can also use a third-party library such as Lodash or 
+Underscore.js to remove duplicate elements from a 
+Javascript array. The _.uniq() function returns the 
+array which does not contain duplicate elements.
+
+Example: In this example, we will use 
+the _.uniq() function. ==> */
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js">
+    </script>
+</head>
+ 
+<body>
+    <script type="text/javascript">
+        console.log(_.uniq([1, 2, 3, 4, 5, 4, 3, 2, 1]));
+    </script>
+</body>
+ 
+</html>
+
+
+
