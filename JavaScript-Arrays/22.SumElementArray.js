@@ -78,3 +78,25 @@ console.log("Sum using Reduce method: " + sum2);
 /* Output
 Sum using Reduce method: 44 */
 
+/* <== Method 4: Using Recursion
+We could define recursion formally in simple words, that 
+is, a function calling itself again and again until it 
+doesn’t have left with it anymore.
+
+Example: This example shows the above-explained approach. ==> */
+
+// Creating array
+let arr3 = [4, 8, 7, 13, 12];
+ 
+// Function to find the sum of the array using recursion
+function sumArray(arr3, index3) {
+    if (index3 === arr3.length) {
+        return 0;
+    }
+    return arr3[index3] + sumArray(arr3, index3 + 1);
+}
+ 
+console.log("Sum is " + sumArray(arr3, 0));
+
+/* Output
+Sum is 44 */
