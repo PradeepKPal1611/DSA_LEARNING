@@ -144,3 +144,22 @@ console.log(withoutLast);
 /* Output
 [ 1, 2, 3, 4, 5, 6 ]
 [ 1, 2, 3, 4, 5 ] */
+
+/* <== Method 5: Using while loop
+By using the while loop we can iterate over the array and we will use pop() method for removing the element from the end.
+
+Example: ==> */
+
+const arr4 = [1, 2, 3, 4, 5, 6];
+ 
+//remove the last 3 elements from an array
+let n = 3;
+ 
+while (n > 0) {
+    n -= 1;
+    arr.pop();
+}
+console.log(arr4);
+
+/* Output
+[ 1, 2, 3 ] */
