@@ -84,3 +84,40 @@ Original Array: [
   6, 7, 8, 9
 ]
 Modified Array: [ 1, 2, 3, 4 ] */
+
+/* <== Method 3: Using filter() Method
+It is used to filter the array and apply the callback 
+function to each item of the array and filter the element 
+which returns true against the callback function.
+
+Syntax: 
+
+Array.filter( callback )
+
+Example: In this example, we will be using the Javascript 
+filter() method to remove the elements from the end of a 
+given array. ==> */
+
+// Define the array
+let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+ 
+console.log("Original Array:", arr2);
+ 
+// Define the number of elements to remove
+let elemsToDelete2 = 5;
+ 
+// Loop for the number of elements
+// to delete
+let k = arr2.filter((x, i) => 
+        i + elemsToDelete < arr2.length)
+ 
+// Pop the last element from the
+// end of the array
+console.log("Modified Array:", k);
+
+/* Output
+Original Array: [
+  1, 2, 3, 4, 5,
+  6, 7, 8, 9
+]
+Modified Array: [ 1, 2, 3, 4 ] */
