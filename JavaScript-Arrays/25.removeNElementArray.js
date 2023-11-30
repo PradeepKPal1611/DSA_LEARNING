@@ -121,3 +121,26 @@ Original Array: [
   6, 7, 8, 9
 ]
 Modified Array: [ 1, 2, 3, 4 ] */
+
+/* <== Method 4: Using Array slice() method
+This method returns a new array containing a portion of 
+the array on which it is implemented. The original remains 
+unchanged.
+
+Syntax:
+
+arr.slice(begin, end);
+
+Example: ==> */
+
+const arr3 = [1, 2, 3, 4, 5, 6];
+ 
+const withoutLast = arr3.slice(0, -1);
+//orignal array
+console.log(arr3);
+//Modified array
+console.log(withoutLast);
+
+/* Output
+[ 1, 2, 3, 4, 5, 6 ]
+[ 1, 2, 3, 4, 5 ] */
