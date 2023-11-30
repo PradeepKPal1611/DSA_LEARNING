@@ -68,3 +68,33 @@ largest();
 98 
 93 
 91 */
+
+/* <== Optimized Solution: We first sort the array in 
+decreasing order and then we run the loop for the length 
+equal to n and print the first n largest elements.
+
+Example: ==> */
+
+let largArr1 = new Array();
+let arr1 = new Array(93, 17, 56, 91, 98,
+          33, 9, 38, 55, 78, 29, 81, 60);
+ 
+findLargest3();
+ 
+function findLargest3() {
+    arr1.sort((a, b) => a < b ?
+        1 : a > b ? -1 : 0);
+ 
+    console.log(arr1[0]);
+    console.log(arr1[1]);
+    console.log(arr1[2]);
+ 
+    console.log(arr1.slice(0, 3));
+}
+
+/* Output:
+
+ 98
+ 93
+ 91
+ [98,93,91] */
