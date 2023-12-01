@@ -84,3 +84,33 @@ Example: */
   Shyam
   Site
   Gita */
+
+/* <== Method 3: Using join() Method
+The JavaScript Array join() Method is used to join the elements of an array into a string. The elements of the string will be separated by a specified separator and its default value is a comma(, ).
+
+Syntax:
+
+array.join(separator)
+Example: ==> */
+ // JavaScript array
+ let data = ["Ram", "Shyam", 
+ "Sita", "Gita"];
+
+// Get the list container element
+let list = 
+document.getElementById('myList');
+
+// Create the unordered list element 
+//and set its inner HTML using map() and join()
+let ul = `<ul>${data.map(data => 
+`<li>${data}</li>`).join('')}
+</ul>`;
+
+// Set the inner HTML of the list container
+list.innerHTML = ul;
+
+ /* Output: GeeksforGeeks
+  Ram
+  Shyam
+  Site
+  Gita */
