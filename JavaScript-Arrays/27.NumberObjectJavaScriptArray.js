@@ -92,3 +92,14 @@ console.log(num4);
 
 -Infinity */
 
+/* <== Example 5: It’s a particular value that represents 
+positive infinity.  it has a greater value than 
+MAX_VALUE. ==> */
+
+let num5 = Number.POSITIVE_INFINITY;
+console.log(num5);
+
+/* Output:
+
+Infinity */
+
