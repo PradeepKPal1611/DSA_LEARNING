@@ -62,3 +62,16 @@ console.log(num1);
 /* Output:
 
 1.7976931348623157e+308 */
+
+/* ==> Example 2:  It’s the maximum possible value a javascript 
+number can have -(2^53 – 1) or 5e-324. ==> */
+
+let num2 = Number.MIN_VALUE;
+console.log(num2);
+
+/* Output:
+
+5e-324 */
+
+/* <== Example 3: It returns “undefined”. ==> */
+
