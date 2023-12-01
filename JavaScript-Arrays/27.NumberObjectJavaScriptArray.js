@@ -75,3 +75,11 @@ console.log(num2);
 
 /* <== Example 3: It returns “undefined”. ==> */
 
+let num3 = Number.NAN;
+console.log(num3);
+
+/* Output:
+
+undefined */
+
+
