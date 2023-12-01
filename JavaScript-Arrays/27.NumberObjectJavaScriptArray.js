@@ -82,4 +82,13 @@ console.log(num3);
 
 undefined */
 
+/* <== Example 4: It’s a particular value that represents 
+negative infinity. it has a lower value than MIN_VALUE. ==> */
+
+let num4 = Number.NEGATIVE_INFINITY;
+console.log(num4);
+
+/* Output:
+
+-Infinity */
 
