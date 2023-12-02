@@ -26,3 +26,24 @@ gfg_Run()
 
 2.3 + 2.4 = 4.699999999999999
 2.3 + 2.4 = 4.70 */
+
+/* <==Approach 2:
+
+Given two or more numbers to sum up the float numbers.
+Use parseFloat() and Math.round() method to get the 
+desired output.
+Example: This example implements the above approach. ==> */
+
+let val1 = parseFloat('2.3') + parseFloat('2.4');
+console.log("2.3 + 2.4 = " + val1);
+ 
+function gfg_Run() {
+    console.log("2.3 + 2.4 = " +
+        Math.round((parseFloat('2.3')
+            + parseFloat('2.4')) * 100) / 100);
+}
+gfg_Run()
+
+/* Output
+2.3 + 2.4 = 4.699999999999999
+2.3 + 2.4 = 4.7 */
