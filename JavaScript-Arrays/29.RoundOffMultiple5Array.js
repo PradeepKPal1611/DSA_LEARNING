@@ -33,3 +33,27 @@ console.log(round(n));
 /* Output:
 
 35 */
+
+/* <== Approach 2:
+
+Take the number in a variable.
+If it is divisible by 5, return the same number.
+Else divide it by 5, take the floor value and again 
+multiply it by 5 and add 5 as well.
+Example: ==> */
+
+function round(x) { 
+    if (x % 5 == 0) { 
+        return (Math.floor(x / 5)) * 5; 
+    } else { 
+        return ((Math.floor(x / 5)) * 5) + 5; 
+    } 
+} 
+  
+var n = 34; 
+console.log(round(n));
+
+/* Output:
+
+35 */
+
