@@ -53,3 +53,36 @@ console.log(m);
 
 10
 5 */
+
+/* <== Method 2: In this method, we will use Math.abs() function 
+to convert negative numbers to positive numbers. 
+
+Syntax:
+
+Math.abs(value)
+Example: Below is the implementation of the above 
+approach: ==> */
+
+// Javascript script to convert negative number
+// to positive number
+ 
+//Driver code
+let n = -30;
+let m = 15;
+ 
+// Using Math.abs() function
+n = Math.abs(n);
+ 
+// Print result
+console.log(n);
+ 
+// Using Math.abs() function
+m = Math.abs(m);
+ 
+// Print result
+console.log(m);
+
+/* Output:
+
+30
+15 */
