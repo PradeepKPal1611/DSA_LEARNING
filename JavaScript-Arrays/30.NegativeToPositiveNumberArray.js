@@ -128,3 +128,41 @@ console.log(m4);
 
 10
 5 */
+
+/* <== Method 4: In this method, we will use a bit-wise 
+not operator which flips all the bits of the number. 
+Since the negative number is stored in a most significant 
+bit it also flips which converts it to a positive number.
+
+Syntax: 
+
+a < 0 ? ( ~a + 1 ) : a
+Example: ==> */
+
+// Function to convert
+// given number to
+// positive number
+function convert_positive(a) {
+    return a < 0 ? (~a + 1) : a;
+}
+ 
+//Driver code
+let n = -10;
+let m = 5;
+ 
+// Call function
+n = convert_positive(n);
+ 
+// Print result
+console.log(n);
+ 
+// Call function
+m = convert_positive(m);
+ 
+// Print result
+console.log(m);
+
+/* Output:
+
+10 
+5 */
