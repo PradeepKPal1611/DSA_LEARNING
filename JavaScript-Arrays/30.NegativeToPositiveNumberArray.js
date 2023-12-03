@@ -34,20 +34,20 @@ function convert_positive(a) {
 }
  
 //Driver code
-let n = -10;
-let m = 5;
+let n1 = -10;
+let m2 = 5;
  
 // Call function
-n = convert_positive(n);
+n = convert_positive(n1);
  
 // Print result
-console.log(n);
+console.log(n1);
  
 // Call function
-m = convert_positive(m);
+m = convert_positive(m2);
  
 // Print result
-console.log(m);
+console.log(m2);
 
 /* Output:
 
@@ -67,22 +67,64 @@ approach: ==> */
 // to positive number
  
 //Driver code
-let n = -30;
-let m = 15;
+let n3 = -30;
+let m3 = 15;
  
 // Using Math.abs() function
-n = Math.abs(n);
+n = Math.abs(n3);
  
 // Print result
-console.log(n);
+console.log(n3);
  
 // Using Math.abs() function
-m = Math.abs(m);
+m = Math.abs(m3);
  
 // Print result
-console.log(m);
+console.log(m3);
 
 /* Output:
 
 30
 15 */
+
+/* <== Method 3: In this method, we will check whether the 
+number is positive or negative, if the number is negative 
+then we add a minus sign at the beginning of the number 
+else return the same. 
+
+Syntax:
+
+a < 0 ? -(a) : a
+Example: This example shows the above-explained approach. ==> */
+
+// Javascript script
+// to convert negative number
+// to positive number
+ 
+// Function to convert
+// given number to
+// positive number
+function convert_positive(a) {
+    return a < 0 ? -(a) : a;
+}
+ 
+//Driver code
+let n4 = -10;
+let m4 = 5;
+ 
+// Call function
+n = convert_positive(n4);
+ 
+// Print result
+console.log(n4);
+ 
+// Call function
+m = convert_positive(m4);
+ 
+// Print result
+console.log(m4);
+
+/* Output:
+
+10
+5 */
