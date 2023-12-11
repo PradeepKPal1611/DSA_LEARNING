@@ -37,3 +37,20 @@ console.log("Converted value of " + x + " is " + z);
 /* Output:
 
 Converted value of 4.59 is 4 */
+
+/* <== Math.ceil (floating argument): Return the smallest 
+integer greater than or equal to a given number. 
+
+Syntax:
+
+Math.ceil(value)
+Example: Here is the basic use of the Math.ceil() method. ==> */
+
+//float value is 4.59;
+let x1 = 4.59;
+let z1 = Math.ceil(x1);
+console.log("Converted value of " + x1 + " is " + z1);
+
+/* Output:
+
+Converted value of 4.59 is 5 */
