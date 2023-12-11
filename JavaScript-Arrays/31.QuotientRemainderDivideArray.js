@@ -22,3 +22,19 @@ Geeks();
 /* Output
 quotient = 7
 remainder = 4 */
+
+/* <==Example 2: This example uses the binary ~~ operator 
+to calculate the divisor. ==> */
+
+let a1 = 39;
+let b1 = 5;
+function Geeks() {
+    let num = ~~(a1 / b1);
+    console.log("quotient = " + num)
+    console.log("remainder = " + a1 % b1);
+}
+Geeks();
+
+/* Output
+quotient = 7
+remainder = 4 */
