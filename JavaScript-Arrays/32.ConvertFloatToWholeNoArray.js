@@ -54,3 +54,21 @@ console.log("Converted value of " + x1 + " is " + z1);
 /* Output:
 
 Converted value of 4.59 is 5 */
+
+/* <== Math.round (floating argument): Round a number to 
+its nearest integer. 
+
+Syntax:
+
+Math.round(var);
+Example: Here we are using the above-explained method to 
+convert numbers. ==> */
+
+//float value is 4.59;
+let x2 = 4.59;
+let z2 = Math.round(x2);
+console.log("Converted value of " + x2 + " is " + z2);
+
+/* Output:
+
+Converted value of 4.59 is 5 */
