@@ -38,3 +38,19 @@ Geeks();
 /* Output
 quotient = 7
 remainder = 4 */
+
+/* <== Example 3:This example uses the right shift >> operator 
+to calculate the divisor. ==> */
+
+let a2 = 39;
+let b2 = 5;
+function Geeks() {
+    let num = (a2 / b2) >> 0;
+    console.log("quotient = " + num)
+    console.log("remainder = " + a2 % b2);
+}
+Geeks();
+
+/* Output
+quotient = 7
+remainder = 4 */
