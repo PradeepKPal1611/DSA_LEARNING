@@ -108,3 +108,21 @@ console.log("Converted value of " + x4 + " is " + z4);
 /* Output:
 
 Converted value of 3.54 is 3 */
+
+/* <== double bitwise not (~~) operator: Round a number to 
+zero. If an operand is a number and it’s not NaN or 
+Infinity. 
+
+Syntax:
+
+~~value
+Example: Here is the example of a not(~~) operator. ==> */
+
+//float value is 4.59;
+let x5 = 4.59;
+let z5 = ~~x;
+console.log("Converted value of " + x5 + " is " + z5);
+
+/* Output:
+
+Converted value of 4.59 is 4 */
