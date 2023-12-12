@@ -91,3 +91,20 @@ console.log("Converted value of " + x3 + " is " + z3);
 /* Output:
 
 Converted value of 4.59 is 4 */
+
+/* <== parseInt (floating argument): Accept the string and 
+convert it into an integer. 
+
+Syntax:
+
+parseInt(Value, radix)
+Example: Here is basic example of above method. ==> */
+
+//float value is 3.54;
+let x4 = 3.54;
+let z4 = parseInt(x4);
+console.log("Converted value of " + x4 + " is " + z4);
+
+/* Output:
+
+Converted value of 3.54 is 3 */
