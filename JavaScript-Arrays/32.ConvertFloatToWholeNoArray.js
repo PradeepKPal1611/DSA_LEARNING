@@ -196,3 +196,17 @@ console.log("Converted value of " + x9 + " is " + z9);
 /* Output:
 
 Converted value of 5.48 is 5 */
+
+/* <== Using XOR (^) operator Syntax:
+
+let = value ^ 0;
+Example: Here is the basic use of the XOR(^) operator. ==> */
+
+//float value is 5.49;
+let x10 = 5.49;
+let z10 = x10 ^ 0;
+console.log("Converted value of " + x10 + " is " + z10);
+
+/* Output:
+
+Converted value of 5.49 is 5 */
