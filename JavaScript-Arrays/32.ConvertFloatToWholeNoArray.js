@@ -162,3 +162,22 @@ console.log("Converted value of " + x7 + " is " + z7);
 /* Output:
 
 Converted value of 5.63 is 5 */
+
+/* <== Using unsigned shift (>>>) operator Round a number 
+to towards zero. 
+
+Syntax:
+
+let = value >>> 0;
+Example: Here is an example of the above-explained 
+method. ==> */
+
+//float value is 5.68;
+let x8 = 5.68;
+//it is same as we are dividing the value by 1.
+let z8 = x8 >>> 0;
+console.log("Converted value of " + x8 + " is " + z8);
+
+/* Output:
+
+Converted value of 5.68 is 5 */
