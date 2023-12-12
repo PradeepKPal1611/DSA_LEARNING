@@ -43,4 +43,32 @@ console.log(Rms);
 
 /* Output:
 
-6 */
+6 */ 
+
+/* Now the above script is converted into a single-line script. 
+To write the above script into a single line, first, convert 
+the arr to another array of squares using the Map function 
+which returns an array. Now apply to reduce on that array 
+directly which will return a single value (sum of all the 
+squares). Sum of the square of the number divided by the 
+number of elements and get the square root. It will 
+produce RMS value. */
+
+/* <== Example 2: In this example, we will write a 
+single-line function for RMS. ==> */
+
+let CalculateRMS1 = (arr1) => Math.sqrt(
+    arr1
+        .map( val => (val * val))
+        .reduce((acum, val) => acum + val)
+    /arr1.length
+);
+
+// The above can be written without any
+// line breaks in between as a single-line.
+// For the sake of easy
+// understanding it is written like that.
+
+let arr1 = [5, 9, 3, -7, -4];
+let RMS = CalculateRMS1(arr1);
+console.log(RMS);
