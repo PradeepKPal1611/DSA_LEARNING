@@ -181,3 +181,18 @@ console.log("Converted value of " + x8 + " is " + z8);
 /* Output:
 
 Converted value of 5.68 is 5 */
+
+/* <== By subtracting the fractional part Syntax:
+
+let = val - val%1;
+Example: In this example, we are using the above-explained 
+method. ==> */
+ 
+//float value is 5.48;
+let x9 = 5.48;
+let z9 = x9 - x9 % 1;
+console.log("Converted value of " + x9 + " is " + z9);
+
+/* Output:
+
+Converted value of 5.48 is 5 */
