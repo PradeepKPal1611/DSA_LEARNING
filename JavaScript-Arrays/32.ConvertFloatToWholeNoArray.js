@@ -126,3 +126,21 @@ console.log("Converted value of " + x5 + " is " + z5);
 /* Output:
 
 Converted value of 4.59 is 4 */
+
+/* <== JavaScript bitwise OR (|) Operator: Round a number 
+towards zero. 
+
+Syntax:
+
+let = value | 0;
+Example: Here is an example of the above-explained 
+method. ==> */
+
+//float value is 5.67;
+let x6 = 5.67;
+let z6 = x6 | 0;
+console.log("Converted value of " + x6 + " is " + z6);
+
+/* Output:
+
+Converted value of 5.67 is 5 */
