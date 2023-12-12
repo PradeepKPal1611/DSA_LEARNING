@@ -144,3 +144,21 @@ console.log("Converted value of " + x6 + " is " + z6);
 /* Output:
 
 Converted value of 5.67 is 5 */
+
+/* <== Using shift (>>) operator: Round a number to 
+towards zero. 
+
+Syntax:
+
+let = value >> 0;
+Example: Basic example of shift(>>) operator. ==> */
+
+//float value is 5.63;
+let x7 = 5.63;
+let z7 = x7 >> 0;
+//it is same as we are dividing the value by 1.
+console.log("Converted value of " + x7 + " is " + z7);
+
+/* Output:
+
+Converted value of 5.63 is 5 */
