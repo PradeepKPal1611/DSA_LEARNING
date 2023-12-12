@@ -72,3 +72,22 @@ console.log("Converted value of " + x2 + " is " + z2);
 /* Output:
 
 Converted value of 4.59 is 5 */
+
+/* <== Math.trunc (floating argument): Return the integer 
+part of a floating-point number by removing the fractional 
+digits. 
+
+Syntax:
+
+Math.trunc(value)
+Example: Here we are using Math.trunc() method to remove 
+the fractional digits. ==> */
+
+//float value is 4.59;
+let x3 = 4.59;
+let z3 = Math.trunc(x3);
+console.log("Converted value of " + x3 + " is " + z3);
+
+/* Output:
+
+Converted value of 4.59 is 4 */
