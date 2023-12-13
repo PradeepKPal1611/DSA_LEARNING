@@ -45,3 +45,16 @@ console.log(str4);
 /* Output
 GeeksforGeeks
 GfG */
+
+/* <== Example: We can also use single quotes inside double 
+quotes and vice-versa. ==> */
+
+const str5 = "'GeeksforGeeks' is learning portal"; 
+const str6 = '"GfG" is a learning portal'; 
+  
+console.log(str5); 
+console.log(str6);
+
+/* Output
+'GeeksforGeeks' is learning portal
+"GfG" is a learning portal */
