@@ -83,3 +83,18 @@ console.log(str9);
 'GfG' is a learning portal
 "GfG" is a learning portal
 \GfG\ is a learning portal */
+
+/* <== Finding the length of a String
+We can find the length of a string using the JavaScript 
+built-in length property.
+
+Example: ==> */
+
+// Declare a string 
+const str = "GeeksforGeeks"; 
+  
+// Display the length of String 
+console.log("String Length: " + str.length);
+
+/* Output
+String Length: 13 */
