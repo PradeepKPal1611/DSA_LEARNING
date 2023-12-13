@@ -58,3 +58,28 @@ console.log(str6);
 /* Output
 'GeeksforGeeks' is learning portal
 "GfG" is a learning portal */
+
+/* <== Escape Characters
+We can use escape characters in string to add single quotes, 
+dual quotes, and backslash.
+
+Syntax:
+
+\' - Inserts a single quote
+\" - Inserts a double quote 
+\\ - Inserts a backslash
+Example: ==> */
+
+const str7 = "\'GfG\' is a learning portal"
+const str8 = "\"GfG\" is a learning portal"
+const str9 = "\\GfG\\ is a learning portal"
+  
+console.log(str7); 
+console.log(str8);
+console.log(str9);
+
+/* Output
+
+'GfG' is a learning portal
+"GfG" is a learning portal
+\GfG\ is a learning portal */
