@@ -25,3 +25,23 @@ console.log("String 2: " + str2);
 
 String 1: First String Content
 String 2: Second String Content */
+ 
+//Note: If we used String() Constructor then a number can be a string as well.
+
+
+/* <== Example: We can write a string in both single and 
+double quotes. ==> */
+
+// String using dual quotes 
+const str3 = "GeeksforGeeks"; 
+  
+// String using single quotes 
+const str4 = 'GfG'; 
+  
+// Display the string 
+console.log(str3); 
+console.log(str4);
+
+/* Output
+GeeksforGeeks
+GfG */
