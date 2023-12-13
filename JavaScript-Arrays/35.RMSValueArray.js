@@ -72,3 +72,7 @@ let CalculateRMS1 = (arr1) => Math.sqrt(
 let arr1 = [5, 9, 3, -7, -4];
 let RMS = CalculateRMS1(arr1);
 console.log(RMS);
+
+/* Output:
+
+6 */ 
