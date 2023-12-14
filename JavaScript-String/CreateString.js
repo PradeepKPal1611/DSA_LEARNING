@@ -133,3 +133,17 @@ console.log(str12);
 
 /* Output
 [String: 'GeeksforGeeks'] */
+
+/* <== Are the strings created by the new keyword is same as normal strings?
+No, the string created by the new keyword is an object and 
+is not the same as normal strings. ==> */
+
+const str13 = new String("GeeksforGeeks"); 
+const str14 = "GeeksforGeeks"; 
+  
+console.log(str13 == str14); 
+console.log(str13 === str14);
+
+/* Output
+true
+false */
