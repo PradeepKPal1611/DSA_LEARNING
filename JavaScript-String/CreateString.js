@@ -147,3 +147,26 @@ console.log(str13 === str14);
 /* Output
 true
 false */
+
+/* <== String Comparison
+There are some inbuilt methods with that we can compare 
+strings such as the equality operator and another like 
+localeCompare() method.
+
+Example: In this example, we will use the above methods 
+to compare strings. ==> */
+
+function compareString() { 
+    let str15 = "John"; 
+    let str16 = new String("John"); 
+  
+    console.log(str15 == str16); 
+    console.log(str15.localeCompare(str16)); 
+      
+} 
+  
+compareString();
+
+/* Output
+true
+0 */
