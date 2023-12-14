@@ -110,3 +110,16 @@ console.log(str10);
 
 /* Output
 'GeeksforGeeks' is a learning portal */
+
+/* <== Note: This method might not be supported on all browsers.
+
+So the better way to break a string is by using the string 
+addition. ==> */
+
+const str11 = "'GeeksforGeeks' is a"
+    + " learning portal"; 
+  
+console.log(str11);
+
+/* Output
+'GeeksforGeeks' is a learning portal */
