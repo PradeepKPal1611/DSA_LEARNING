@@ -123,3 +123,13 @@ console.log(str11);
 
 /* Output
 'GeeksforGeeks' is a learning portal */
+
+/* <== Output
+'GeeksforGeeks' is a learning portal ==> */
+
+const str12 = new String("GeeksforGeeks"); 
+  
+console.log(str12);
+
+/* Output
+[String: 'GeeksforGeeks'] */
