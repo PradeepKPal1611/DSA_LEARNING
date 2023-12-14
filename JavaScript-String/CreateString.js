@@ -98,3 +98,15 @@ console.log("String Length: " + str.length);
 
 /* Output
 String Length: 13 */
+
+/* <== Breaking Long Strings
+We will use a backslash to break a long string in 
+multiple lines of code. ==> */
+
+const str10 = "'GeeksforGeeks' is \
+a learning portal"
+  
+console.log(str10);
+
+/* Output
+'GeeksforGeeks' is a learning portal */
