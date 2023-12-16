@@ -53,3 +53,59 @@ func();
 
 /* Output
 3 */
+
+/* ==> Methods:
+Table of Content
+
+JavaScript slice(startIndex, endIndex) Method
+JavaScript substring(startIndex, endIndex) Method
+JavaScript substr(start, length) Method
+JavaScript replace(replaceValue, replaceWithValue)
+JavaScript replaceAll(regexp | substr , newSubstr | function)
+JavaScript toUpperCase(stringVariable)
+JavaScript toLowerCase(stringVariable)
+JavaScript concat(objectOfString) Method
+JavaScript trim() Method
+JavaScript trimStart() Method
+JavaScript trimEnd() Method
+JavaScript padStart() Method
+JavaScript padEnd() Method
+JavaScript charAt(indexOfCharacter) Method:
+JavaScript charCodeAt(indexOfCharacter) Method
+JavaScript split(character) Method
+
+********
+Method 1: JavaScript slice(startIndex, endIndex) Method
+This method extracts a part of the string based on the given stating-index and ending-index and returns a new string.
+
+Example: This example describes the JavaScript String 
+slice() method. ==> */
+
+let A = 'Geeks for Geeks';
+b = A.slice(0,5);
+c = A.slice(6,9);
+d = A.slice(10);
+ 
+console.log(b);
+console.log(c);
+console.log(d);
+
+/* Output
+
+Geeks
+for
+Geeks */
+
+/* ==> Method 2: JavaScript substring(startIndex, endIndex) Method
+This method returns the part of the given string from the 
+start index to the end index. Indexing starts from zero (0).
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let str = "Mind, Power, Soul";
+let part = str.substring(6, 11);
+console.log(part);
+
+/* Output
+Powe */
