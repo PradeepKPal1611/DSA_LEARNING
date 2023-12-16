@@ -109,3 +109,18 @@ console.log(part);
 
 /* Output
 Powe */
+
+/* <== Method 3: JavaScript substr(start, length) Method
+This method returns the specified number of characters from the 
+specified index from the given string. It basically 
+extracts a part of the original string.
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let str3 = "Mind, Power, Soul";
+let part1 = str3.substr(6, 5);
+console.log(part1);
+
+/* Output
+Powe */
