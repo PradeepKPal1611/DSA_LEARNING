@@ -124,3 +124,18 @@ console.log(part1);
 
 /* Output
 Powe */
+
+/* <== Method 4: JavaScript replace(replaceValue, replaceWithValue)
+This method replaces a part of the given string with another 
+string or a regular expression. The original string will 
+remain unchanged.
+
+Example: This example shows the implementation of the above-explained 
+approach. ==> */
+
+let str4 = "Mind, Power, Soul";
+let part2 = str4.replace("Power", "Space");
+console.log(part2);
+
+/* Output
+Mind, Space, Soul */
