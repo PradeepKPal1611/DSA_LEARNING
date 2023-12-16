@@ -170,3 +170,27 @@ compareString();
 /* Output
 true
 0 */
+
+/* <== Note: The Equality operator returns true, whereas 
+the localeCompare method returns the difference of ASCII 
+values.
+
+Example: We will implement string methods such as indexOf(), 
+slice(), replace(), and toLowerCase() methods. ==> */
+
+let x = "GeeksforGeeks"; 
+  
+console.log(x.indexOf("Geeks")) 
+  
+console.log(x.slice(0,5)); 
+  
+console.log(x.replace("Geek", "Super Geek")); 
+  
+console.log(x.toLowerCase());
+
+/* Output
+0
+Geeks
+Super GeeksforGeeks
+geeksforgeeks */
+
