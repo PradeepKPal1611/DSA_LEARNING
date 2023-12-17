@@ -174,3 +174,42 @@ console.log(geeks.toUpperCase(geeks)) ;
 
 /* Output
 STANDS-FOR-GEEKSFORGEEKS */
+
+/* <== Method 7: JavaScript toLowerCase(stringVariable)
+This method converts all the characters present in the so 
+lowercase and returns a new string with all the characters 
+in lowercase.
+
+Example: This example describes the JavaScript String 
+toLowerCase() method. ==> */
+
+let gfg1 = 'GFG ';
+let geeks1 = 'stands-for-GeeksforGeeks';
+ 
+console.log(geeks1.toLowerCase(geeks1));
+
+/* Output
+stands-for-geeksforgeeks */
+
+/* <== Method 8: JavaScript concat(objectOfString) Method
+This method combines the text of two strings and returns a 
+new combined or joined string. To concatenate two strings, 
+we use the concat() method on one object of string and 
+send another object of string as a parameter. This method 
+accepts one argument. The variable contains text in double 
+quotes or single quotes.
+
+Example: This example describes the JavaScript String 
+concat() method. ==> */
+
+let gfg2 = 'GFG ';
+let geeks2 = 'stands for GeeksforGeeks';
+ 
+// Accessing concat method on an object
+// of String passing another object 
+// as a parameter
+console.log(gfg2.concat(geeks2));
+
+/* Output
+GFG stands for GeeksforGeeks */
+
