@@ -156,3 +156,21 @@ console.log(part3);
 
 /* Output
 Mind, Space, Space,  Soul */
+
+/* <== Method 6: JavaScript toUpperCase(stringVariable)
+This method converts all the characters present in the 
+String to upper case and returns a new String with all 
+characters in upper case. This method accepts single 
+parameter stringVariable string that you want to convert 
+in upper case.
+
+Example: This example describes the JavaScript String 
+toUpperCase() method. ==> */
+
+let gfg = 'GFG '
+let geeks = 'stands-for-GeeksforGeeks';
+ 
+console.log(geeks.toUpperCase(geeks)) ;
+
+/* Output
+STANDS-FOR-GEEKSFORGEEKS */
