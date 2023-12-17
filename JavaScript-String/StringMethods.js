@@ -139,3 +139,20 @@ console.log(part2);
 
 /* Output
 Mind, Space, Soul */
+
+/* <== Method 5: JavaScript replaceAll(regexp | substr , 
+    newSubstr | function)
+This method returns a new string after replacing all the 
+matches of a string with a specified string or a regular 
+expression. The original string is left unchanged after 
+this operation.
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let str5 = "Mind, Power, Power,  Soul";
+let part3 = str5.replaceAll("Power", "Space");
+console.log(part3);
+
+/* Output
+Mind, Space, Space,  Soul */
