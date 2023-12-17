@@ -238,3 +238,20 @@ console.log(newGfg.length);
 /* Output
 7
 3 */
+
+/* <== Method 10: JavaScript trimStart() Method
+This method removes whitespace from the beginning of a string. 
+The value of the string is not modified in any manner, 
+including any whitespace present after the string.
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let str6 = "  Soul";
+console.log(str6)
+let part4 = str6.trimStart();
+console.log(part4);
+
+/* Output
+  Soul
+Soul */
