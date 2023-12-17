@@ -213,3 +213,28 @@ console.log(gfg2.concat(geeks2));
 /* Output
 GFG stands for GeeksforGeeks */
 
+/* ==> Method 9: JavaScript trim() Method
+This method is used to remove either white spaces from the 
+given string. This method returns a new string with removed 
+white spaces. This method is called on a String object. 
+This method doesn’t accept any parameter.
+
+Example: This example describes the JavaScript String trim() 
+method. ==> */
+
+let gfg3 = 'GFG    ';
+let geeks3 = 'stands-for-GeeksforGeeks';
+ 
+// Storing new object of string
+// with removed white spaces
+let newGfg = gfg3.trim();
+ 
+// Old length
+console.log(gfg3.length);
+ 
+// New length
+console.log(newGfg.length);
+
+/* Output
+7
+3 */
