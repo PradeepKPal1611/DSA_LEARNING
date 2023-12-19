@@ -271,4 +271,19 @@ console.log(part5);
 
 /* Output
   Soul
-  Soul */
+  Soul */ 
+
+/* <== Method 12: JavaScript padStart() Method
+This method pad a string with another string until it 
+reaches the given length. The padding is applied from the 
+left end of the string.
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let stone = "Soul";
+stone = stone.padStart(9,"Mind ");
+console.log(stone);
+
+/* <==Output
+Mind Soul ==> */
