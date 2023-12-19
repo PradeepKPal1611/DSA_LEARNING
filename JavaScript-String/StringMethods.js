@@ -287,3 +287,18 @@ console.log(stone);
 
 /* <==Output
 Mind Soul ==> */
+
+/* <== Method 13: JavaScript padEnd() Method
+This method pad a string with another string until it 
+reaches the given length. The padding is applied from 
+the right end of the string.
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let stone1 = "Soul";
+stone = stone1.padEnd(10," Power");
+console.log(stone1);
+
+/* Output
+Soul Power */
