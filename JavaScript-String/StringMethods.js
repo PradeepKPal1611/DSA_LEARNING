@@ -255,3 +255,20 @@ console.log(part4);
 /* Output
   Soul
 Soul */
+
+/* <== Method 11: JavaScript trimEnd() Method
+This method removes white space from the end of a string. 
+The value of the string is not modified in any manner, 
+including any white-space present before the string.
+
+Example: This example shows the implementation of the 
+above-explained approach. ==> */
+
+let str7 = "Soul  ";
+console.log(str7)
+let part5 = str75.trimEnd();
+console.log(part5);
+
+/* Output
+  Soul
+  Soul */
