@@ -302,3 +302,32 @@ console.log(stone1);
 
 /* Output
 Soul Power */
+
+/* <== Method 14: JavaScript charAt(indexOfCharacter) Method
+This method returns the character at the specified index. 
+String in JavaScript has zero-based indexing.
+
+Example: This example describes the JavaScript string 
+charAt() method. ==> */
+
+let gfg4 = 'GeeksforGeeks';
+let geeks4 = 'GfG is the best platform to learn and\n'+
+'experience Computer Science.';
+ 
+// Print the string as it is
+console.log(gfg4); 
+ 
+console.log(geeks4); 
+ 
+// As string index starts from zero
+// It will return first character of string
+console.log(gfg.charAt(0)); 
+ 
+console.log(geeks.charAt(5));
+
+/* <== Output
+GeeksforGeeks
+GfG is the best platform to learn and
+experience Computer Science.
+G
+s */
