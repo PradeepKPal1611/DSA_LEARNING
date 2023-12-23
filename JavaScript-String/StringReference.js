@@ -23,3 +23,18 @@ stringLength();
 
 /* Output:
 String Length: 13 */
+
+/* <== Example: In this example, we will return the Date() 
+object’s string value. ==> */
+
+// Date Object having date and time
+const currentDate = new Date()
+ 
+// date object's string value
+const currentDate_String = currentDate.toString()
+ 
+console.log("Date Object's String Value: " + currentDate_String);
+
+/* Output
+Date Object's String Value: Wed Sep 06 2023 21:12:54 GMT+0000 
+(Coordinated Universal Time) */
