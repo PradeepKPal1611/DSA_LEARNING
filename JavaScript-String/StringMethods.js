@@ -353,3 +353,20 @@ console.log(geeks5.charCodeAt(5));
 /* Output
 71
 115 */
+
+/* <== Method 16: JavaScript split(character) Method
+This method splits the string into an array of sub-strings. 
+This method returns an array. This method accepts a single 
+parameter character on which you want to split the string.
+
+Example: This example describes the JavaScript String 
+split() method. ==> */
+
+let gfg6 = 'GFG '
+let geeks6 = 'stands-for-GeeksforGeeks'
+ 
+// Split string on '-'. 
+console.log(geeks6.split('-'));
+
+/* Output
+[ 'stands', 'for', 'GeeksforGeeks' ] */
