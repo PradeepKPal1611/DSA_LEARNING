@@ -331,3 +331,25 @@ GfG is the best platform to learn and
 experience Computer Science.
 G
 s */
+
+/* <== Method 15: JavaScript charCodeAt(indexOfCharacter) Method
+This method returns a number that represents the Unicode 
+value of the character at the specified index. This method 
+accepts one argument.
+
+Example: This example describes the JavaScript String 
+charCodeAt() Method. ==> */
+
+let gfg5 = 'GeeksforGeeks';
+let geeks5 = 'GfG is the best platform\n\
+to learn and experience\n\
+Computer Science.';
+ 
+// Return a number indicating Unicode
+// value of character at index 0 ('G')
+console.log(gfg5.charCodeAt(0));
+console.log(geeks5.charCodeAt(5));
+
+/* Output
+71
+115 */
